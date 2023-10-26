@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+	width: 6.25vw;
+  height: 6.25vw;
+  background-color: aquamarine;
+}
