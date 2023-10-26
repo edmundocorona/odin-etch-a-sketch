@@ -4,6 +4,7 @@ body {
 
 .row {
   display: flex;
+  justify-content: center;
 }
 
 .cell {
@@ -18,4 +19,11 @@ body {
 
 .hovered {
   background-color: #3c78eb;
+}
+
+#header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
