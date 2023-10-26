@@ -20,3 +20,10 @@ function createGrid () {
 }
 
 createGrid();
+
+const listCells = document.querySelectorAll('.cell');
+listCells.forEach((cell) => {
+  cell.addEventListener('click', () => {
+    alert(`You click me ${cell.id}`);
+  });
+});
