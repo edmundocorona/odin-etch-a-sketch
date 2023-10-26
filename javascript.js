@@ -23,7 +23,11 @@ createGrid();
 
 const listCells = document.querySelectorAll('.cell');
 listCells.forEach((cell) => {
-  cell.addEventListener('click', () => {
-    alert(`You click me ${cell.id}`);
+  cell.addEventListener('mouseleave', () => {
+    changeBgColor(cell);
   });
 });
+
+function changeBgColor (element) {
+  element.classList.add('hovered');
+}

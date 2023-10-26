@@ -9,5 +9,13 @@ body {
 .cell {
 	width: 6.25vw;
   height: 6.25vw;
-  background-color: aquamarine;
+  background-color: #7fffd4;
+}
+
+.cell:hover {
+  background-color: #0000ff;
+}
+
+.hovered {
+  background-color: #3c78eb;
 }
